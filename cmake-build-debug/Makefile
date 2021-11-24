@@ -222,6 +222,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+orderedLinkedList.obj: orderedLinkedList.cpp.obj
+
+.PHONY : orderedLinkedList.obj
+
+# target to build an object file
+orderedLinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.obj
+.PHONY : orderedLinkedList.cpp.obj
+
+orderedLinkedList.i: orderedLinkedList.cpp.i
+
+.PHONY : orderedLinkedList.i
+
+# target to preprocess a source file
+orderedLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.i
+.PHONY : orderedLinkedList.cpp.i
+
+orderedLinkedList.s: orderedLinkedList.cpp.s
+
+.PHONY : orderedLinkedList.s
+
+# target to generate assembly for a file
+orderedLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.s
+.PHONY : orderedLinkedList.cpp.s
+
+unorderedLinkedList.obj: unorderedLinkedList.cpp.obj
+
+.PHONY : unorderedLinkedList.obj
+
+# target to build an object file
+unorderedLinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.obj
+.PHONY : unorderedLinkedList.cpp.obj
+
+unorderedLinkedList.i: unorderedLinkedList.cpp.i
+
+.PHONY : unorderedLinkedList.i
+
+# target to preprocess a source file
+unorderedLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.i
+.PHONY : unorderedLinkedList.cpp.i
+
+unorderedLinkedList.s: unorderedLinkedList.cpp.s
+
+.PHONY : unorderedLinkedList.s
+
+# target to generate assembly for a file
+unorderedLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.s
+.PHONY : unorderedLinkedList.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -240,6 +294,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... orderedLinkedList.obj
+	@echo ... orderedLinkedList.i
+	@echo ... orderedLinkedList.s
+	@echo ... unorderedLinkedList.obj
+	@echo ... unorderedLinkedList.i
+	@echo ... unorderedLinkedList.s
 .PHONY : help
 
 

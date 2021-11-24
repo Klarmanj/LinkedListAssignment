@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.obj"
   "CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.obj"
   "CMakeFiles/LinkedListAssignment.dir/main.cpp.obj"
+  "CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.obj"
+  "CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.obj"
   "LinkedListAssignment.exe"
   "LinkedListAssignment.exe.manifest"
   "LinkedListAssignment.pdb"

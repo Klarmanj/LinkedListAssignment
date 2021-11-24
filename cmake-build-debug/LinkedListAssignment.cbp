@@ -95,6 +95,18 @@
 		<Unit filename="C:/Users/rockb/CLionProjects/LinkedListAssignment/main.cpp">
 			<Option target="LinkedListAssignment"/>
 		</Unit>
+		<Unit filename="C:/Users/rockb/CLionProjects/LinkedListAssignment/orderedLinkedList.cpp">
+			<Option target="LinkedListAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/rockb/CLionProjects/LinkedListAssignment/orderedLinkedList.h">
+			<Option target="LinkedListAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/rockb/CLionProjects/LinkedListAssignment/unorderedLinkedList.cpp">
+			<Option target="LinkedListAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/rockb/CLionProjects/LinkedListAssignment/unorderedLinkedList.h">
+			<Option target="LinkedListAssignment"/>
+		</Unit>
 		<Unit filename="C:/Users/rockb/CLionProjects/LinkedListAssignment/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
