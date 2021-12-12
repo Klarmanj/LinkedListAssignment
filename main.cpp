@@ -694,6 +694,7 @@ public:
     void insertFirst(const Type&);
     void insertLast(const Type&);
     void deleteNode(const Type&);
+    void mergeList(orderedLinkedList<Type>&, orderedLinkedList<Type>&);
 
 };
 
@@ -721,6 +722,7 @@ bool orderedLinkedList<Type>::search(const Type &searchItem) const {
 
 template<class Type>
 void orderedLinkedList<Type>::insert(const Type &newItem) {
+    int num = newItem;
     nodeType<Type>  *current;
     nodeType<Type> *trailCurrent = nullptr;
     nodeType<Type> *newNode;
@@ -729,6 +731,12 @@ void orderedLinkedList<Type>::insert(const Type &newItem) {
     newNode = new nodeType<Type>;
     newNode->info = newItem;
     newNode->next = nullptr;
+
+    if(search(newItem)){
+        cout << "There is already this number in the list. Re-enter a number that is not in the list: ";
+        cin >> num;
+        insert(num);
+    }
 
     if(this->first == nullptr){
         this->first = newNode;
@@ -828,29 +836,83 @@ void orderedLinkedList<Type>::deleteNode(const Type &deleteItem) {
         }
     }
 }
+template<class Type>
+void orderedLinkedList<Type>::mergeList(orderedLinkedList<Type> &list1, orderedLinkedList<Type> &list2) {
+    nodeType<Type> *newList = nullptr;
+    nodeType<Type> *firstList, *secondList;
+    firstList = list1.first;
+    secondList = list2.first;
+    newList = new nodeType<Type>;
 
+    while(firstList != nullptr && secondList != nullptr){
+        if(firstList->info <= secondList->info){
+            newList->next = firstList;
+            firstList = firstList->next;
+        }
+        else{
+            newList->next = secondList;
+            secondList = secondList->next;
+        }
+        if(firstList != nullptr) {
+            newList = newList->next;
+        }
+    }
+
+    if(firstList == nullptr){
+        newList->next = secondList;
+    }
+    if(secondList == nullptr){
+        newList->next = firstList;
+    }
+
+
+}
 
 int main(){
-        int num;
+//        int num;
+//
+//        orderedLinkedList<int> list, otherList;
+//
+//    list.initializeList();
+//    cout << "Enter numbers and type -999 when you are done." << endl;
+//    cin >> num;
+//    while(num != -999){
+//        list.insertLast(num);
+//        cin >> num;
+//    }
+//    cout << endl;
+//    cout << "Enter the number in the list you would like to divide the list at: ";
+//    cin >> num;
+//    list.divideAt(otherList, num);
+//    cout << "List 1 after splitting at " << num << ": ";
+//    list.print();
+//    cout << endl;
+//    cout << "List 2 after splitting at " << num << ": ";
+//    otherList.print();
 
-        orderedLinkedList<int> list, otherList;
 
-    list.initializeList();
-    cout << "Enter numbers and type -999 when you are done." << endl;
+
+orderedLinkedList<int> list1, list2, newList;
+    int num;
+
+    list1.initializeList();
+    list2.initializeList();
+    cout << "Enter numbers and type -999 when you are done with list1." << endl;
     cin >> num;
     while(num != -999){
-        list.insertLast(num);
+        list1.insertLast(num);
         cin >> num;
     }
-    cout << endl;
-    cout << "Enter the number in the list you would like to divide the list at: ";
+    cout << "Enter numbers and type -999 when you are done with list2." << endl;
     cin >> num;
-    list.divideAt(otherList, num);
-    cout << "List 1 after splitting at " << num << ": ";
-    list.print();
-    cout << endl;
-    cout << "List 2 after splitting at " << num << ": ";
-    otherList.print();
+    while(num != -999){
+        list2.insertLast(num);
+        cin >> num;
+    }
+    newList.mergeList(list1, list2);
+    newList.print();
+
+
 
 
 
