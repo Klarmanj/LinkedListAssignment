@@ -68,6 +68,7 @@ public:
     Type back() const;
     void reversePrint(nodeType<Type> *current) const;
     void printListReverse() const;
+    void divideAt(LinkedListType<Type>&, const Type&);
     virtual bool search(const Type&) const = 0;
     virtual void insertFirst(const Type&) = 0;
     virtual void insertLast(const Type&) = 0;
@@ -221,7 +222,34 @@ void LinkedListType<Type>::printListReverse() const {
     reversePrint(first);
     cout << endl;
 }
+template<class Type>
+void LinkedListType<Type>::divideAt(LinkedListType<Type> &secondList, const Type &item) {
+    nodeType<Type> *newNode;
+    nodeType<Type> *current;
+    nodeType<Type> *trailCurrent;
+    bool found = false;
+    newNode = new nodeType<Type>;
+    newNode = this->first;
 
+
+    if(search(item)) {
+            while(newNode != nullptr && !found) {
+                if (newNode->info == item) {
+                    found = true;
+                    secondList.first = newNode;
+                    trailCurrent->next = nullptr;
+                }
+                else{
+                    trailCurrent = newNode;
+                    newNode = newNode->next;
+                }
+            }
+    }
+    else{
+        cout << "The item you entered is not in the list.";
+        exit(1);
+    }
+}
 
 template<class Type>
 class unorderedLinkedList: public LinkedListType<Type>{
@@ -370,16 +398,16 @@ void doublyLinkedList<Type>::copyList(const doublyLinkedList<Type> & otherList) 
     }
     else{
         current = otherList.first;
-
+        first = otherList.first;
         count = otherList.count;
 
-        first = new nodeType<Type>;
+//        first = new nodeType<Type>;
+//
+//        first->info = current->info;
+//        first->back = current->back;
+//        first->next = nullptr;
 
-        first->info = current->info;
-        first->back = current->back;
-        first->next = nullptr;
-
-        last = first;
+        last = otherList.last;
 
         current = current->next;
 
@@ -387,12 +415,7 @@ void doublyLinkedList<Type>::copyList(const doublyLinkedList<Type> & otherList) 
             newNode = new nodeType<Type>;
             newNode->info = current->info;
             newNode->back = current->back;
-            newNode->next = nullptr;
-
-            last->next = newNode;
-            last->back = newNode;
-            last = newNode;
-
+            newNode->next = current->next;
             current = current->next;
         }
     }
@@ -473,8 +496,6 @@ bool doublyLinkedList<Type>::search(const Type &searchItem) const {
     }
     return  found;
 
-
-    return findNode(searchItem);
 }
 
 template<class Type>
@@ -810,47 +831,75 @@ void orderedLinkedList<Type>::deleteNode(const Type &deleteItem) {
 
 
 int main(){
+        int num;
 
-    doublyLinkedList<int> list1;
-    int num;
+        orderedLinkedList<int> list, otherList;
 
-    list1.initializeList();
-    list1.isEmptyList();
+    list.initializeList();
     cout << "Enter numbers and type -999 when you are done." << endl;
     cin >> num;
     while(num != -999){
-        list1.insertLast(num);
+        list.insertLast(num);
         cin >> num;
     }
     cout << endl;
-
-    cout << "List 1: " << endl;
-    list1.print();
-    cout << endl;
-
-    cout << "Enter a number to insert at the beginning of the list: " << endl;
+    cout << "Enter the number in the list you would like to divide the list at: ";
     cin >> num;
-    list1.insertFirst(num);
-
-    cout << "List 1 after inserting first: " << endl;
-    list1.print();
+    list.divideAt(otherList, num);
+    cout << "List 1 after splitting at " << num << ": ";
+    list.print();
     cout << endl;
+    cout << "List 2 after splitting at " << num << ": ";
+    otherList.print();
 
-    cout << "Enter a number to insert at the end of the list: " << endl;
-    cin >> num;
-    list1.insertLast(num);
 
-    cout << "List 1 after inserting last: " << endl;
-    list1.print();
-    cout << endl;
 
-    cout << "Enter a number to delete from the list: " << endl;
-    cin >> num;
-    list1.deleteNode(num);
+    //Commented out to test new assignment-Programming exercises 6,7,8
+//    doublyLinkedList<int> list1, list2;
+//    int num;
+//
+//    list1.initializeList();
+//    list1.isEmptyList();
+//    cout << "Enter numbers and type -999 when you are done." << endl;
+//    cin >> num;
+//    while(num != -999){
+//        list1.insertLast(num);
+//        cin >> num;
+//    }
+//    cout << endl;
+//
+//    cout << "List 1: " << endl;
+//    list1.print();
+//    cout << endl;
 
-    cout << "List 1 after deleting " << num << endl;
-    list1.print();
+//    cout << "Enter a number to insert at the beginning of the list: " << endl;
+//    cin >> num;
+//    list1.insertFirst(num);
+//
+//    cout << "List 1 after inserting first: " << endl;
+//    list1.print();
+//    cout << endl;
+//
+//    cout << "Enter a number to insert at the end of the list: " << endl;
+//    cin >> num;
+//    list1.insertLast(num);
+//
+//    cout << "List 1 after inserting last: " << endl;
+//    list1.print();
+//    cout << endl;
 
+//    list2 = list1;
+//    cout << "Enter a number to delete from the list: " << endl;
+//    cin >> num;
+//    list2.deleteNode(num);
+//
+//    cout << "List 2 after deleting " << num << endl;
+//    list2.print();
+
+//    cout << "Delete another num from list 2: " << endl;
+//    cin >> num;
+//    list2.deleteNode(num);
+//    list2.print();
 
 
 

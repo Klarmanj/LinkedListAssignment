@@ -88,79 +88,19 @@ CMakeFiles/LinkedListAssignment.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedListAssignment.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rockb\CLionProjects\LinkedListAssignment\main.cpp -o CMakeFiles\LinkedListAssignment.dir\main.cpp.s
 
-CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.obj: CMakeFiles/LinkedListAssignment.dir/flags.make
-CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.obj: ../LinkedListIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rockb\CLionProjects\LinkedListAssignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedListAssignment.dir\LinkedListIterator.cpp.obj -c C:\Users\rockb\CLionProjects\LinkedListAssignment\LinkedListIterator.cpp
-
-CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rockb\CLionProjects\LinkedListAssignment\LinkedListIterator.cpp > CMakeFiles\LinkedListAssignment.dir\LinkedListIterator.cpp.i
-
-CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rockb\CLionProjects\LinkedListAssignment\LinkedListIterator.cpp -o CMakeFiles\LinkedListAssignment.dir\LinkedListIterator.cpp.s
-
-CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.obj: CMakeFiles/LinkedListAssignment.dir/flags.make
-CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.obj: ../LinkedListType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rockb\CLionProjects\LinkedListAssignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedListAssignment.dir\LinkedListType.cpp.obj -c C:\Users\rockb\CLionProjects\LinkedListAssignment\LinkedListType.cpp
-
-CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rockb\CLionProjects\LinkedListAssignment\LinkedListType.cpp > CMakeFiles\LinkedListAssignment.dir\LinkedListType.cpp.i
-
-CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rockb\CLionProjects\LinkedListAssignment\LinkedListType.cpp -o CMakeFiles\LinkedListAssignment.dir\LinkedListType.cpp.s
-
-CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.obj: CMakeFiles/LinkedListAssignment.dir/flags.make
-CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.obj: ../unorderedLinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rockb\CLionProjects\LinkedListAssignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedListAssignment.dir\unorderedLinkedList.cpp.obj -c C:\Users\rockb\CLionProjects\LinkedListAssignment\unorderedLinkedList.cpp
-
-CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rockb\CLionProjects\LinkedListAssignment\unorderedLinkedList.cpp > CMakeFiles\LinkedListAssignment.dir\unorderedLinkedList.cpp.i
-
-CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rockb\CLionProjects\LinkedListAssignment\unorderedLinkedList.cpp -o CMakeFiles\LinkedListAssignment.dir\unorderedLinkedList.cpp.s
-
-CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.obj: CMakeFiles/LinkedListAssignment.dir/flags.make
-CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.obj: ../orderedLinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rockb\CLionProjects\LinkedListAssignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedListAssignment.dir\orderedLinkedList.cpp.obj -c C:\Users\rockb\CLionProjects\LinkedListAssignment\orderedLinkedList.cpp
-
-CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rockb\CLionProjects\LinkedListAssignment\orderedLinkedList.cpp > CMakeFiles\LinkedListAssignment.dir\orderedLinkedList.cpp.i
-
-CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rockb\CLionProjects\LinkedListAssignment\orderedLinkedList.cpp -o CMakeFiles\LinkedListAssignment.dir\orderedLinkedList.cpp.s
-
 # Object files for target LinkedListAssignment
 LinkedListAssignment_OBJECTS = \
-"CMakeFiles/LinkedListAssignment.dir/main.cpp.obj" \
-"CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.obj" \
-"CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.obj" \
-"CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.obj" \
-"CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.obj"
+"CMakeFiles/LinkedListAssignment.dir/main.cpp.obj"
 
 # External object files for target LinkedListAssignment
 LinkedListAssignment_EXTERNAL_OBJECTS =
 
 LinkedListAssignment.exe: CMakeFiles/LinkedListAssignment.dir/main.cpp.obj
-LinkedListAssignment.exe: CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.obj
-LinkedListAssignment.exe: CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.obj
-LinkedListAssignment.exe: CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.obj
-LinkedListAssignment.exe: CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.obj
 LinkedListAssignment.exe: CMakeFiles/LinkedListAssignment.dir/build.make
 LinkedListAssignment.exe: CMakeFiles/LinkedListAssignment.dir/linklibs.rsp
 LinkedListAssignment.exe: CMakeFiles/LinkedListAssignment.dir/objects1.rsp
 LinkedListAssignment.exe: CMakeFiles/LinkedListAssignment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rockb\CLionProjects\LinkedListAssignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable LinkedListAssignment.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rockb\CLionProjects\LinkedListAssignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LinkedListAssignment.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LinkedListAssignment.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

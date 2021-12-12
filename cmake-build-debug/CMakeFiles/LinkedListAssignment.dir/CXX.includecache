@@ -6,41 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/rockb/CLionProjects/LinkedListAssignment/LinkedListIterator.h
-iostream
--
-
-C:/Users/rockb/CLionProjects/LinkedListAssignment/LinkedListType.cpp
-iostream
--
-LinkedListType.h
-C:/Users/rockb/CLionProjects/LinkedListAssignment/LinkedListType.h
-
-C:/Users/rockb/CLionProjects/LinkedListAssignment/LinkedListType.h
-LinkedListIterator.h
-C:/Users/rockb/CLionProjects/LinkedListAssignment/LinkedListIterator.h
-
 C:/Users/rockb/CLionProjects/LinkedListAssignment/main.cpp
 iostream
 -
-orderedLinkedList.h
-C:/Users/rockb/CLionProjects/LinkedListAssignment/orderedLinkedList.h
-
-C:/Users/rockb/CLionProjects/LinkedListAssignment/orderedLinkedList.cpp
-orderedLinkedList.h
-C:/Users/rockb/CLionProjects/LinkedListAssignment/orderedLinkedList.h
-
-C:/Users/rockb/CLionProjects/LinkedListAssignment/orderedLinkedList.h
-LinkedListType.h
-C:/Users/rockb/CLionProjects/LinkedListAssignment/LinkedListType.h
-
-C:/Users/rockb/CLionProjects/LinkedListAssignment/unorderedLinkedList.cpp
-iostream
+conio.h
 -
-unorderedLinkedList.h
-C:/Users/rockb/CLionProjects/LinkedListAssignment/unorderedLinkedList.h
-
-C:/Users/rockb/CLionProjects/LinkedListAssignment/unorderedLinkedList.h
-LinkedListType.h
-C:/Users/rockb/CLionProjects/LinkedListAssignment/LinkedListType.h
 

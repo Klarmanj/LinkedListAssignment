@@ -141,60 +141,6 @@ LinkedListAssignment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/build
 .PHONY : LinkedListAssignment/fast
 
-LinkedListIterator.obj: LinkedListIterator.cpp.obj
-
-.PHONY : LinkedListIterator.obj
-
-# target to build an object file
-LinkedListIterator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.obj
-.PHONY : LinkedListIterator.cpp.obj
-
-LinkedListIterator.i: LinkedListIterator.cpp.i
-
-.PHONY : LinkedListIterator.i
-
-# target to preprocess a source file
-LinkedListIterator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.i
-.PHONY : LinkedListIterator.cpp.i
-
-LinkedListIterator.s: LinkedListIterator.cpp.s
-
-.PHONY : LinkedListIterator.s
-
-# target to generate assembly for a file
-LinkedListIterator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/LinkedListIterator.cpp.s
-.PHONY : LinkedListIterator.cpp.s
-
-LinkedListType.obj: LinkedListType.cpp.obj
-
-.PHONY : LinkedListType.obj
-
-# target to build an object file
-LinkedListType.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.obj
-.PHONY : LinkedListType.cpp.obj
-
-LinkedListType.i: LinkedListType.cpp.i
-
-.PHONY : LinkedListType.i
-
-# target to preprocess a source file
-LinkedListType.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.i
-.PHONY : LinkedListType.cpp.i
-
-LinkedListType.s: LinkedListType.cpp.s
-
-.PHONY : LinkedListType.s
-
-# target to generate assembly for a file
-LinkedListType.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/LinkedListType.cpp.s
-.PHONY : LinkedListType.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -222,60 +168,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-orderedLinkedList.obj: orderedLinkedList.cpp.obj
-
-.PHONY : orderedLinkedList.obj
-
-# target to build an object file
-orderedLinkedList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.obj
-.PHONY : orderedLinkedList.cpp.obj
-
-orderedLinkedList.i: orderedLinkedList.cpp.i
-
-.PHONY : orderedLinkedList.i
-
-# target to preprocess a source file
-orderedLinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.i
-.PHONY : orderedLinkedList.cpp.i
-
-orderedLinkedList.s: orderedLinkedList.cpp.s
-
-.PHONY : orderedLinkedList.s
-
-# target to generate assembly for a file
-orderedLinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/orderedLinkedList.cpp.s
-.PHONY : orderedLinkedList.cpp.s
-
-unorderedLinkedList.obj: unorderedLinkedList.cpp.obj
-
-.PHONY : unorderedLinkedList.obj
-
-# target to build an object file
-unorderedLinkedList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.obj
-.PHONY : unorderedLinkedList.cpp.obj
-
-unorderedLinkedList.i: unorderedLinkedList.cpp.i
-
-.PHONY : unorderedLinkedList.i
-
-# target to preprocess a source file
-unorderedLinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.i
-.PHONY : unorderedLinkedList.cpp.i
-
-unorderedLinkedList.s: unorderedLinkedList.cpp.s
-
-.PHONY : unorderedLinkedList.s
-
-# target to generate assembly for a file
-unorderedLinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListAssignment.dir\build.make CMakeFiles/LinkedListAssignment.dir/unorderedLinkedList.cpp.s
-.PHONY : unorderedLinkedList.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -285,21 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LinkedListAssignment
-	@echo ... LinkedListIterator.obj
-	@echo ... LinkedListIterator.i
-	@echo ... LinkedListIterator.s
-	@echo ... LinkedListType.obj
-	@echo ... LinkedListType.i
-	@echo ... LinkedListType.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... orderedLinkedList.obj
-	@echo ... orderedLinkedList.i
-	@echo ... orderedLinkedList.s
-	@echo ... unorderedLinkedList.obj
-	@echo ... unorderedLinkedList.i
-	@echo ... unorderedLinkedList.s
 .PHONY : help
 
 
